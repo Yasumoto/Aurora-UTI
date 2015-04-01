@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		408FE92A1ACCA69E00595711 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FE9291ACCA69E00595711 /* AppDelegate.swift */; };
+		408FE92C1ACCA69E00595711 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408FE92B1ACCA69E00595711 /* Images.xcassets */; };
+		408FE92F1ACCA69E00595711 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 408FE92D1ACCA69E00595711 /* MainMenu.xib */; };
+		408FE93B1ACCA69E00595711 /* Aurora_UTITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FE93A1ACCA69E00595711 /* Aurora_UTITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		408FE9351ACCA69E00595711 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 408FE91C1ACCA69E00595711 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 408FE9231ACCA69E00595711;
+			remoteInfo = "Aurora UTI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		408FE9241ACCA69E00595711 /* Aurora UTI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aurora UTI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		408FE9281ACCA69E00595711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		408FE9291ACCA69E00595711 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		408FE92B1ACCA69E00595711 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		408FE92E1ACCA69E00595711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		408FE9341ACCA69E00595711 /* Aurora UTITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aurora UTITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		408FE9391ACCA69E00595711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		408FE93A1ACCA69E00595711 /* Aurora_UTITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aurora_UTITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		408FE9211ACCA69E00595711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408FE9311ACCA69E00595711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		408FE91B1ACCA69E00595711 = {
+			isa = PBXGroup;
+			children = (
+				408FE9261ACCA69E00595711 /* Aurora UTI */,
+				408FE9371ACCA69E00595711 /* Aurora UTITests */,
+				408FE9251ACCA69E00595711 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		408FE9251ACCA69E00595711 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				408FE9241ACCA69E00595711 /* Aurora UTI.app */,
+				408FE9341ACCA69E00595711 /* Aurora UTITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		408FE9261ACCA69E00595711 /* Aurora UTI */ = {
+			isa = PBXGroup;
+			children = (
+				408FE9291ACCA69E00595711 /* AppDelegate.swift */,
+				408FE92B1ACCA69E00595711 /* Images.xcassets */,
+				408FE92D1ACCA69E00595711 /* MainMenu.xib */,
+				408FE9271ACCA69E00595711 /* Supporting Files */,
+			);
+			path = "Aurora UTI";
+			sourceTree = "<group>";
+		};
+		408FE9271ACCA69E00595711 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				408FE9281ACCA69E00595711 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		408FE9371ACCA69E00595711 /* Aurora UTITests */ = {
+			isa = PBXGroup;
+			children = (
+				408FE93A1ACCA69E00595711 /* Aurora_UTITests.swift */,
+				408FE9381ACCA69E00595711 /* Supporting Files */,
+			);
+			path = "Aurora UTITests";
+			sourceTree = "<group>";
+		};
+		408FE9381ACCA69E00595711 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				408FE9391ACCA69E00595711 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		408FE9231ACCA69E00595711 /* Aurora UTI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 408FE93E1ACCA69E00595711 /* Build configuration list for PBXNativeTarget "Aurora UTI" */;
+			buildPhases = (
+				408FE9201ACCA69E00595711 /* Sources */,
+				408FE9211ACCA69E00595711 /* Frameworks */,
+				408FE9221ACCA69E00595711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aurora UTI";
+			productName = "Aurora UTI";
+			productReference = 408FE9241ACCA69E00595711 /* Aurora UTI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		408FE9331ACCA69E00595711 /* Aurora UTITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 408FE9411ACCA69E00595711 /* Build configuration list for PBXNativeTarget "Aurora UTITests" */;
+			buildPhases = (
+				408FE9301ACCA69E00595711 /* Sources */,
+				408FE9311ACCA69E00595711 /* Frameworks */,
+				408FE9321ACCA69E00595711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				408FE9361ACCA69E00595711 /* PBXTargetDependency */,
+			);
+			name = "Aurora UTITests";
+			productName = "Aurora UTITests";
+			productReference = 408FE9341ACCA69E00595711 /* Aurora UTITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		408FE91C1ACCA69E00595711 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Apache Aurora";
+				TargetAttributes = {
+					408FE9231ACCA69E00595711 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					408FE9331ACCA69E00595711 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 408FE9231ACCA69E00595711;
+					};
+				};
+			};
+			buildConfigurationList = 408FE91F1ACCA69E00595711 /* Build configuration list for PBXProject "Aurora UTI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 408FE91B1ACCA69E00595711;
+			productRefGroup = 408FE9251ACCA69E00595711 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				408FE9231ACCA69E00595711 /* Aurora UTI */,
+				408FE9331ACCA69E00595711 /* Aurora UTITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		408FE9221ACCA69E00595711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408FE92C1ACCA69E00595711 /* Images.xcassets in Resources */,
+				408FE92F1ACCA69E00595711 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408FE9321ACCA69E00595711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		408FE9201ACCA69E00595711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408FE92A1ACCA69E00595711 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408FE9301ACCA69E00595711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408FE93B1ACCA69E00595711 /* Aurora_UTITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		408FE9361ACCA69E00595711 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 408FE9231ACCA69E00595711 /* Aurora UTI */;
+			targetProxy = 408FE9351ACCA69E00595711 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		408FE92D1ACCA69E00595711 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				408FE92E1ACCA69E00595711 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		408FE93C1ACCA69E00595711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		408FE93D1ACCA69E00595711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		408FE93F1ACCA69E00595711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Aurora UTI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		408FE9401ACCA69E00595711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Aurora UTI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		408FE9421ACCA69E00595711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Aurora UTITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aurora UTI.app/Contents/MacOS/Aurora UTI";
+			};
+			name = Debug;
+		};
+		408FE9431ACCA69E00595711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Aurora UTITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aurora UTI.app/Contents/MacOS/Aurora UTI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		408FE91F1ACCA69E00595711 /* Build configuration list for PBXProject "Aurora UTI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408FE93C1ACCA69E00595711 /* Debug */,
+				408FE93D1ACCA69E00595711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		408FE93E1ACCA69E00595711 /* Build configuration list for PBXNativeTarget "Aurora UTI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408FE93F1ACCA69E00595711 /* Debug */,
+				408FE9401ACCA69E00595711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		408FE9411ACCA69E00595711 /* Build configuration list for PBXNativeTarget "Aurora UTITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408FE9421ACCA69E00595711 /* Debug */,
+				408FE9431ACCA69E00595711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 408FE91C1ACCA69E00595711 /* Project object */;
+}
